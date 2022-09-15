@@ -1,0 +1,63 @@
+.login{
+    flex: 9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.login h1{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    
+}
+
+.username, .usersex{
+    padding-right: 50px;
+}
+.idname,.nickname{
+    padding-right: 35px;
+}
+.userpw{
+    padding-right: 20px;
+}
+.loginbox{
+    height:600px;
+    width: 1300px;  
+    border: 1px solid #333;
+    position: relative;
+    
+}
+
+/* 제출하기 버튼 */
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:21px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.loginBtn{
+	padding: 6px 24px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        

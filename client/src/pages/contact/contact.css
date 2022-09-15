@@ -1,0 +1,48 @@
+table{
+    width: 100%;
+    font-family: 'Noto Sans KR', 'sans-serif' ;
+    font-weight:lighter;
+}
+tr,th{
+    height: 50px;
+}
+a.number{
+    color: #111;
+}
+
+
+.contact{
+    margin-top: 70px;
+}
+.writebtn{
+    float: right;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:40px;
+	border:1px solid #337bc4;
+    display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;    
+    padding: 5px 15px;
+}
+.tableIN{
+    width: 1200px;
+    text-align: center;
+}
+.tabletr{
+    font-size: 19px;
+    color: #666;
+}
+
+th{ 
+    width: 25%; line-height: 60px;
+    border-bottom: 1px dashed #333;
+}
+tbody{
+    font-size: 16px;
+}

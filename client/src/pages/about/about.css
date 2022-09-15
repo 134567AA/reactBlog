@@ -1,0 +1,46 @@
+.about{
+    display: flex;
+    margin-top: 100px;
+    justify-content:space-evenly ;
+}
+.noticeBox{
+    width: 33.3334%;  
+  
+}
+.notice{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h2{
+    padding-bottom: 20px;
+}
+
+ul,ol,li{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.notice li a{
+    color: #555;
+    font-weight: 500;
+    text-decoration:none ;
+    line-height: 50px;
+}
+
+.notice li a:hover{
+    font-weight: 600;
+    color: #000;
+ 
+}
+.popualrbox{
+    width: 900px;
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+

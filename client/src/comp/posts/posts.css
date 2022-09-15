@@ -1,0 +1,38 @@
+.posts{
+    flex: 0 0 33.333333%;
+    padding: 15px;
+    margin-top: 20px;
+}
+.postImg{
+    max-width: 100%;
+    height: 200px;
+    object-fit:contain;
+    border-bottom: 1px solid #666;
+    
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCat{
+    font-size:12px;
+    color: rgb(255, 198, 128);
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postTitle{
+    font-weight : 100;
+    font-size: 20px;
+    cursor: pointer;
+}
+.postDate{
+    align-self: flex-end;
+    margin-right: 10px;
+
+}
+.ppostTitle a{
+    text-decoration: none;
+}
